@@ -5,8 +5,19 @@ $(document).ready(function () {
   //an alert once the page has loaded;
   alert("The page has loaded");
 
-  //changes only a single paragraph’s styling
-  $("#story").css("color", "red");
+   //changes only a single paragraph’s styling
+  $("#story").css({
+    color: "red",
+    fontSize: "13pt",
+  });
+
+  $("#food").css({
+    fontSize: "13pt",
+  });
+
+  $("#people").css({
+    fontSize: "13pt",
+  });
 
   //accordion animation style when each section is hovered over
   $("#menu").hover(
